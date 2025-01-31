@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Ticketing System</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Online Ticketing System</h1>
+    </header>
+    <main>
+        <section id="events">
+            <h2>Events</h2>
+            <ul id="event-list">
+                <!-- Event list will be populated here -->
+            </ul>
+        </section>
+        <section id="booking">
+            <h2>Book Tickets</h2>
+            <form id="booking-form">
+                <label for="event-select">Select Event:</label>
+                <select id="event-select" name="event-select">
+                    <!-- Event options will be populated here -->
+                </select>
+                <label for="seat-select">Select Seat:</label>
+                <select id="seat-select" name="seat-select">
+                    <!-- Seat options will be populated here -->
+                </select>
+                <button id="book-button">Book Tickets</button>
+            </form>
+        </section>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
+
